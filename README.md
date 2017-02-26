@@ -2,6 +2,12 @@
 
 Django REST framework框架
 
+## 安装
+
+```bash
+pip install -r requirements.txt
+```
+
 ## 快速开始
 
 |用户名|密码|
