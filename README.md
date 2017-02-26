@@ -41,4 +41,4 @@ X-Frame-Options: SAMEORIGIN
 
 获取浏览器打开`http://127.0.0.1:8000/quickstart/`
 
-![quickstart](http://github.com/anshengme/django-rest-framework-tutorial/raw/master/images/quickstart.png))
+![quickstart](https://raw.githubusercontent.com/anshengme/django-rest-framework-tutorial/master/images/quickstart.png)
