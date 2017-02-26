@@ -3,12 +3,12 @@
 
 # Created by 安生 on 2017/2/26
 from django.conf.urls import url, include
-from snippets import views
-from rest_framework.routers import DefaultRouter
+from rest_framework import routers
+from quickstart import views
 
-router = DefaultRouter()
-router.register(r'snippets', views.SnippetViewSet)
+router = routers.DefaultRouter()
 router.register(r'users', views.UserViewSet)
+router.register(r'groups', views.GroupViewSet)
 
 # API endpoints
 urlpatterns = [
